@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project - Accessible Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js"></script>
+</head>
+<body onload="addTabindex()">
+
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="preview-list">
+        <img class="preview" alt="Deep Blue Ocean" src="https://picsum.photos/id/10/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" alt="Forest Pathway" src="https://picsum.photos/id/11/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" alt="Rocky Beach" src="https://picsum.photos/id/12/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" alt="Autumn Leaves" src="https://picsum.photos/id/15/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" alt="Mountain Peak" src="https://picsum.photos/id/16/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" alt="Grassy Hills" src="https://picsum.photos/id/17/600/400" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Web Development Student Portfolio</p>
+    </footer>
+
+</body>
+</html>
